@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.drum-set {
+    margin: 15% auto;
+}
+
+.drum-set>button {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.drum-set>button:hover {
+    color: red;
+}
+
+footer {
+    margin-bottom: 10px;
+    color: #66bfbf;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pressed {
+    box-shadow: 0 4px 6px 0 red;
+    opacity: 1;
+}
